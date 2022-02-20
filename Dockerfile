@@ -1,5 +1,10 @@
-FROM python:3.8.10
+FROM python:3.8.10-slim-buster
 
-COPY . /src
+WORKDIR /app
 
-RUN pip install -r /src/requirements.txt
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD [ "python3", "main.py" ]
