@@ -1,21 +1,21 @@
 {
-    "54flyrjcdnQdco7300avMJ": {
+    "0a9sd6MEXZXIPHk0fAxpZ4": {
         "title": "We Will Rock You",
         "artist": "Queen",
         "routine_type": "APPEND",
-        "append_id": "4kzvAGJirpZ9ethvKZdJtg",
+        "append_id": "4kzvAGJirpZ9ethvKZdJtg"
     },
     "3TO7bbrUKrOSPGRTB5MeCz": {
         "title": "Time",
         "artist": "Pink Floyd",
         "routine_type": "SEEK",
-        "seek_start": "0:00", // Optional: Default is 0:00
-        "seek_end": "0:43",
+        "seek_start": 0,
+        "seek_end": 43000
     },
     "0hKRSZhUGEhKU6aNSPBACZ": {
         "title": "A Day In The Life",
         "artist": "The Beatles",
         "routine_type": "SKIP",
-        "skip_time": "5:00", // Optional: Default is 0:00
+        "skip_time": 300000
     }
 }
